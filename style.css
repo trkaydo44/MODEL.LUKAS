@@ -1,0 +1,96 @@
+/* === GENERAL RESET === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #1a1a1a;
+    line-height: 1.7;
+    background-color: #ffffff;
+}
+
+/* === NAVIGATION === */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(255,255,255,0.97);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 6%;
+    z-index: 1000;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+nav .logo {
+    font-size: 1.4rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #888;
+}
+
+/* === HERO SECTION === */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6%;
+    background: #f9f9f9;
+    margin-top: 65px;
+}
+
+.hero-content h1 {
+    font-size: 4.5rem;
+    letter-spacing: 6px;
+    margin-bottom: 1.2rem;
+    text-transform: uppercase;
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+    color: #666;
+}
+
+.btn {
+    padding: 0.9rem 2.2rem;
+    background: #1a1a1a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #444;
+}
+
+.hero-img {
+    height: 88vh;
+    object-fit: cover;
+} 
+/* ✅ ADDED MISSING CLOSING } ABOVE — THIS WAS THE ERROR */
